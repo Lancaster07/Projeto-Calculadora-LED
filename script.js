@@ -95,5 +95,9 @@ document.addEventListener("keydown", function (event) {
     insert("*");
   } else if (event.key === "/") {
     insert("/");
+  } else if (event.key === "Enter") {
+    calculate();
+  } else if (event.key === "Backspace") {
+    back();
   }
 });
